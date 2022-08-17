@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Задание 1
+        // Задание 1.
 
         int[] newArray = generateRandomArray();
         int sum = 0;
@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
         System.out.println();
 
-        //Задание 2
+        //Задание 2.
 
         int[] arrayValue = generateRandomArray();
         int max = arrayValue[0];
@@ -38,7 +38,7 @@ public class Main {
         System.out.println(" Максимальная сумма трат за день составила " + max + " рублей ");
         System.out.println(" Минимальная сумма трат за день составила " + min + " рублей ");
 
-        // Задание 3
+        // Задание 3.
 
         double average = 0;
         int sumAll = 0;
@@ -48,7 +48,7 @@ public class Main {
         }
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
-        //Задание 4
+        //Задание 4.
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         char[] fullName = new char[reverseFullName.length];
