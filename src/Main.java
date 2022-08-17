@@ -58,12 +58,30 @@ public class Main {
         reverseFullName = fullName;
         System.out.println(reverseFullName);
 
-        //Задание 5*
-
-
 
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
