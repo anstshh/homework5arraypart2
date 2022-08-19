@@ -1,7 +1,4 @@
 public class Main {
-
-    int[] arr = generateRandomArray();
-
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
         int[] arr = new int[30];
@@ -38,14 +35,16 @@ public class Main {
         System.out.println(" Максимальная сумма трат за день составила " + max + " рублей ");
         System.out.println(" Минимальная сумма трат за день составила " + min + " рублей ");
 
-        // Задание 3
+        // Задание 3.
+
+        int[] newArray1 = generateRandomArray();
 
         float average = 0f;
         float sumAll = 0f;
-        for (int s = 0; s < newArray.length; s++) {
-            sumAll = sumAll + newArray[s];
-            average = sumAll / 30;
+        for (int s = 0; s < newArray1.length; s++) {
+            sumAll = sumAll + newArray1[s];
         }
+        average = sumAll / 30;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
         //Задание 4
